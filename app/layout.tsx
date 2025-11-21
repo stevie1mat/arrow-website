@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={fonts}>
+      <body className={fonts} suppressHydrationWarning>
         <Header />        
         <main>{children}</main>
         <Footer />

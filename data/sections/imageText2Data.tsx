@@ -1,43 +1,35 @@
 import { SectionProps } from "@/types/sectionProps";
 import Icons from "@/components/Icons";
-import Image1 from '@/public/img/image-text/img2.png';
-import Image2 from '@/public/img/image-text/img-small.png';
+import Section1Image from '@/public/img/section1.png';
 
 export const ImageText2Data: SectionProps = {
     wrapperCls: "mt-100",
     container: "container",
-    subheading: "Our Company",
-    heading: "Redesigning business for solutions",
-    text: "Our mission is to empowers businesses off all size to thrive in an our businesses ever changing marketplace.",
+    subheading: "About Arrow Marketplace",
+    heading: "Building Digital Solutions That Scale",
+    text: "We specialize in creating cutting-edge websites, mobile apps, and eCommerce platforms that help businesses succeed in the digital world.",
     textList: [
         {
             icon: <Icons.Ambition />,
-            title: "Our ambition",
-            text: "Businesses off all size thrive in an our businesses."
+            title: "Our Mission",
+            text: "Deliver world-class digital solutions that transform businesses and drive measurable growth."
         },
         {
             icon: <Icons.Purpose />,
-            title: "Our purpose",
-            text: "Businesses off all size thrive in an our businesses."
+            title: "Our Expertise",
+            text: "Web development, mobile apps, SEO, WordPress, Shopify, WooCommerce, React Native, Flutter & more."
         }
     ],
     button: {
-        label: "More About Us",
+        label: "Learn More",
         href: "/about-us",
         type: "primary"
     },
     imageList: [
         {
-            src: Image1.src,
+            src: Section1Image.src,
             width: 992,
             height: 863,
-            alt: 'Image',
-            loading: 'lazy'
-        },
-        {
-            src: Image2.src,
-            width: 195,
-            height: 202,
             alt: 'Image',
             loading: 'lazy'
         }

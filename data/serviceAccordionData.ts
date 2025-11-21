@@ -1,18 +1,18 @@
 export const ServiceAccordionData = [
     {
-        title: "What Services Does Your IT Solutions Business Offer?",
-        text: "Nor is there anyone who loves or pursues or desires to obtain pain of itself, because which toil and pain can procuresteady steady.The point of using is that it has a mores normal fact that a reader will be distracted by the readable content."
+        title: "Website & Web Application Development",
+        text: "We build responsive, high-performance websites and web applications using modern technologies. From simple landing pages to complex web platforms, we create digital experiences that engage users and drive conversions."
     },
     {
-        title: "What types of financial challenges?",
-        text: "Nor is there anyone who loves or pursues or desires to obtain pain of itself, because which toil and pain can procuresteady steady.The point of using is that it has a mores normal fact that a reader will be distracted by the readable content."
+        title: "Mobile App Development (React Native & Flutter)",
+        text: "Launch your mobile app on iOS and Android with our cross-platform development expertise. We use React Native and Flutter to build native-quality apps faster and more cost-effectively than traditional development."
     },
     {
-        title: "What are the payment methods?",
-        text: "Nor is there anyone who loves or pursues or desires to obtain pain of itself, because which toil and pain can procuresteady steady.The point of using is that it has a mores normal fact that a reader will be distracted by the readable content."
+        title: "eCommerce Solutions (Shopify, WooCommerce, WordPress)",
+        text: "Set up and scale your online store with our eCommerce expertise. We specialize in Shopify, WooCommerce, and WordPress to create powerful, user-friendly shopping experiences that boost sales and customer satisfaction."
     },
     {
-        title: "How fast I get my order?",
-        text: "Nor is there anyone who loves or pursues or desires to obtain pain of itself, because which toil and pain can procuresteady steady.The point of using is that it has a mores normal fact that a reader will be distracted by the readable content."
+        title: "SEO & Digital Marketing",
+        text: "Get found online with our proven SEO strategies and digital marketing services. We optimize your website for search engines, improve rankings, drive organic traffic, and help you reach your target audience effectively."
     }
 ]

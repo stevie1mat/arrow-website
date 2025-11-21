@@ -29,19 +29,19 @@ export const HeroSlidesData = [
 
 export const BannerSlides = [
     {
-      thumb: "/img/slider/s1sm.jpg",
-      image: "/img/slider/s1.jpg",
+      thumb: "/img/bannerslide1.jpg",
+      image: "/img/bannerslide1.jpg",
     },
     {
-      thumb: "/img/slider/s2sm.jpg",
-      image: "/img/slider/s2.jpg",
+      thumb: "/img/bannerslide2.jpg",
+      image: "/img/bannerslide2.jpg",
     },
     {
-      thumb: "/img/slider/s3sm.jpg",
-      image: "/img/slider/s3.jpg",
+      thumb: "/img/bannerslide3.jpg",
+      image: "/img/bannerslide3.jpg",
     },
     {
-      thumb: "/img/slider/s2sm.jpg",
-      image: "/img/slider/s2.jpg",
+      thumb: "/img/bannerslide2.jpg",
+      image: "/img/bannerslide2.jpg",
     }
 ]; 

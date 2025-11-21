@@ -1,6 +1,5 @@
 import "@/styles/header.css";
 import Logo from "./Logo";
-import LogoImage from "@/public/img/logo-white.png";
 import NavBar from "./menus/NavBar";
 import HeaderActions from "./HeaderActions";
 import StickyHeader from "./StickyHeader";
@@ -15,13 +14,13 @@ const Header = () => {
         <div className="header-grid">
           {/* Logo */}
           <Logo                   
-            src={LogoImage.src}
-            width={189}
-            height={32}
+            src="/icons/arrow-logo-white.svg"
+            width={75}
+            height={35}
             url="/"
             cls="header-logo"
-            alt="Consulo logo"
-            ariaLabel="Consulo logo"
+            alt="Arrow Marketplace logo"
+            ariaLabel="Arrow Marketplace logo"
             loading="eager"
           />
           

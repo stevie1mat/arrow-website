@@ -5,14 +5,14 @@ import BannerSliderImage from "@/public/img/banner/image.jpg";
 export const BannerWithSliderData: BannerSliderType = {
     wrapperCls: "with-floating-header",
     backgroundImage: BannerSliderImage.src,
-    subheading: "Expert Consulting",
-    heading: "Steering Your Business Toward Success",
-    styledText: "Business",
-    text: "We provide dependable and tailored consulting services that help your business navigate challenges, seize opportunities.",
+    subheading: "Digital Solutions Expert",
+    heading: "Transform Your Vision Into Digital Reality",
+    styledText: "Digital",
+    text: "From stunning Websites and Mobile apps to powerful eCommerce platforms and SEO strategies - we build digital solutions that drive your business growth.",
     phone: "(307) 555-0133",
     button: {
-        label: "Get Started",
-        href: "/services",
+        label: "Start Your Project",
+        href: "/contact-us",
         type: "primary"
     },
     logoIconName: "LogoRotate",
