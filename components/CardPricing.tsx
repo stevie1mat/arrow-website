@@ -47,9 +47,9 @@ const CardPricing = ({ data }: { data: PricingProps }) => {
                 <Link
                     href={link ? link : '#'}
                     className="button button--primary"
-                    aria-label="More About Us"
+                    aria-label="Get in Touch"
                 >
-                    Choose Package
+                    Get in Touch
                     <Icons.ArrowRotate />
                 </Link>
             </div>

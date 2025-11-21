@@ -39,7 +39,7 @@ const NavBar = () => {
         </div>
         <ul className="header-menu list-unstyled">
           {
-            Menus?.map((link, index) => (
+            Menus?.map((link: any, index) => (
               <li className={`nav-item${link.megamenu || link.megamenutwocolumn ? ' nav-item-static': ''}`} key={`link-${index}`}>
                   <ParentLink 
                     title={link.title} 
@@ -50,7 +50,7 @@ const NavBar = () => {
                   {link.dropdown &&
                     <div className="header-submenu menu-absolute submenu-color">
                       <ul className="list-unstyled">
-                        {link.dropdown.map((childlink, index) => (
+                        {link.dropdown.map((childlink: any, index: any) => (
                             <li className="nav-item" key={`childlink-${index}`}>
                               <ChildLink 
                                 title={childlink.title} 
@@ -61,7 +61,7 @@ const NavBar = () => {
                               {childlink.dropdown &&                                 
                                 <div className="header-submenu menu-absolute submenu-color header-grandmenu">
                                     <ul className="list-unstyled">
-                                      {childlink.dropdown.map((grandchildlink, index) => (
+                                      {childlink.dropdown.map((grandchildlink: any, index: any) => (
                                           <li className="nav-item" key={`grandchildlink-${index}`}>
                                             <ChildLink 
                                               title={grandchildlink.title} 
@@ -84,7 +84,7 @@ const NavBar = () => {
                   {link.megamenu &&             
                     <div className="header-submenu menu-absolute submenu-color header-megamenu">
                       <ul className="list-unstyled">
-                        {link.megamenu.map((childlink, index) => (
+                        {link.megamenu.map((childlink: any, index: any) => (
                             <li className="nav-item" key={`megachild-${index}`}>
                               <LinkHeading 
                                 title={childlink.heading} 
@@ -92,7 +92,7 @@ const NavBar = () => {
                               />
                               {childlink.dropdown && 
                                 <ul className="submenu-lists reset-submenu list-unstyled submenu-color">
-                                  {childlink.dropdown.map((grandchildlink, index) => (
+                                  {childlink.dropdown.map((grandchildlink: any, index: any) => (
                                       <li className="nav-item" key={`megagrandchild-${index}`}>
                                         <ChildLink 
                                           title={grandchildlink.title} 
@@ -110,7 +110,7 @@ const NavBar = () => {
 
                         {link.bottommenu &&
                           <li className="nav-item megamenu-links">
-                            {link.bottommenu.map((link, index) => (
+                            {link.bottommenu.map((link: any, index: any) => (
                               <BottomMenuLink 
                                 title={link.title} 
                                 path={link.path}
@@ -127,7 +127,7 @@ const NavBar = () => {
                   {link.megamenutwocolumn && 
                     <div className="header-submenu menu-absolute submenu-color header-megamenu">
                       <ul className="list-unstyled">                        
-                        {link.megamenutwocolumn.map((childlink, index) =>(
+                        {link.megamenutwocolumn.map((childlink: any, index: any) =>(
                             <li className="nav-item" key={`megatwocol-${index}`}>
                               <LinkHeading 
                                 title={childlink.title}
@@ -136,7 +136,7 @@ const NavBar = () => {
 
                               {childlink.dropdown && 
                                 <ul className="reset-submenu list-unstyled submenu-color">
-                                  {childlink.dropdown.map((grandchildlink, index) => (
+                                  {childlink.dropdown.map((grandchildlink: any, index: any) => (
                                       <li className="nav-item" key={`megadesc-${index}`}>
                                         {grandchildlink.imageUrl != null ? (
                                           <LinkWithImg 
@@ -166,7 +166,7 @@ const NavBar = () => {
 
                         {link.bottommenu &&
                           <li className="nav-item megamenu-links">
-                            {link.bottommenu.map((link, index) => (
+                            {link.bottommenu.map((link: any, index: any) => (
                               <BottomMenuLink 
                                 title={link.title} 
                                 path={link.path}

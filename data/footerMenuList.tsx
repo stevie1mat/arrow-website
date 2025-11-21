@@ -9,15 +9,15 @@ export const QuickLink: MenuType[] = [
         path: '/about-us'
     },
     {
-        title: 'Our Team',
-        path: '/teams'
+        title: 'Our Services',
+        path: '/services'
     },
     {
-        title: 'Pricing Plans',
-        path: '/pricing-plan'
+        title: 'Portfolio',
+        path: '/projects'
     },
     {
-        title: 'Blogs',
+        title: 'Blog',
         path: '/blogs'
     },
     {
@@ -28,31 +28,31 @@ export const QuickLink: MenuType[] = [
 
 export const Services: MenuType[] = [
     {
-        title: 'UI/UX Design',
-        path: '/projects'
-    },
-    {
-        title: 'App Development',
-        path: '/projects'
-    },
-    {
-        title: 'Digital Marketing',
+        title: 'Web Development',
         path: '/services'
     },
     {
-        title: 'Web Development',
-        path: '/pricing-plan'
+        title: 'Mobile Apps',
+        path: '/services'
     },
     {
-        title: 'Cyber Security',
-        path: '/projects/business-development'
+        title: 'eCommerce Solutions',
+        path: '/services'
+    },
+    {
+        title: 'SEO & Digital Marketing',
+        path: '/services'
+    },
+    {
+        title: 'WordPress & Shopify',
+        path: '/services'
     }
 ];
 
 export const Information: MenuType[] = [
     {
-        title: 'Working Process',
-        path: '/services'
+        title: 'How We Work',
+        path: '/about-us'
     },
     {
         title: 'Privacy Policy',

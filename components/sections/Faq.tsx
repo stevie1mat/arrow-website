@@ -1,5 +1,5 @@
 import { SectionProps } from "@/types/sectionProps";
-import BackgroundImage from "@/public/img/faq/question.png";
+import BackgroundImage from "@/public/img/question.png";
 import { FaqAccordion } from "@/data/faqAccordion";
 import Subheading from "../Subheading";
 import Heading from "../Heading";

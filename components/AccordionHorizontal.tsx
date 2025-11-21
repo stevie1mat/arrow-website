@@ -100,11 +100,11 @@ const AccordionHorizontal = ({ items }: { items: ServiceProps[] }) => {
                     <h2 className="heading text-24">{item.title}</h2>
                     {item.description && <p className="text text-16">{parser(item.description)}</p>}
                 </div>
-                <div className="service-button">
+                {/* <div className="service-button">
                   <Link href={`/services/${item.slug}`} className="button button--primary">
                     + View Details
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </li>

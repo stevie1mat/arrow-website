@@ -1,5 +1,5 @@
 import { SectionProps } from "@/types/sectionProps";
-import BackgroundImage from '@/public/img/contact/contact-bg.jpg';
+import BackgroundImage from '@/public/img/testimonial-banner.jpg';
 
 export const TestimonialSliderThumbData: SectionProps = {
     wrapperCls: "testimonial-2 mt-100",

@@ -1,15 +1,16 @@
 .hero-banner .swiper-button-prev,
 .hero-banner .swiper-button-next {
   --swiper-navigation-size: 44px;
-  --swiper-navigation-color: rgba(28, 37, 57, 1);
-  --swiper-navigation-background-color: rgba(255, 255, 255, 1);
+  --swiper-navigation-color: rgba(255, 255, 255, 1);
+  --swiper-navigation-background-color: #636B2F;
   --swiper-navigation-hover-color: rgba(255, 255, 255, 1);
-  --swiper-navigation-hover-background-color: rgba(28, 37, 57, 1);
+  --swiper-navigation-hover-background-color: #4a5226;
 }
 
 .hero-banner {
   --padding-block-start: 100px;
   --padding-block-bottom: 100px;
+  --color-foreground-heading: #2a3015;
   min-height: 100vh;
   padding-block-start: var(--padding-block-start);
   padding-block-end: var(--padding-block-bottom);
@@ -17,6 +18,18 @@
   align-items: center;
   position: relative;
   overflow: hidden;
+}
+
+.hero-banner .decorated-text {
+  color: #2a3015;
+  outline-color: #2a3015;
+}
+
+.hero-banner .decorated-text::before,
+.hero-banner .decorated-text::after,
+.hero-banner .decorated-text span::before,
+.hero-banner .decorated-text span::after {
+  background: #2a3015;
 }
 
 .hero-banner.with-floating-header {
@@ -167,7 +180,7 @@
 }
 
 .text-banner {
-  --color-background: rgba(28, 37, 57, 1);
+  --color-background: #636B2F;
   --color-foreground: rgba(255, 255, 255, 1);
   --color-foreground-heading: rgba(255, 255, 255, 1);
   --color-foreground-subheading: rgba(255, 255, 255, 1);

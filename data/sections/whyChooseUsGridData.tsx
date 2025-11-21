@@ -1,6 +1,6 @@
 import { SectionProps } from "@/types/sectionProps";
-import WhyChooseUsImage from "@/public/img/why-choose-us/1.jpg";
-import WhyChooseUsImageMobile from "@/public/img/why-choose-us/575.jpg";
+import WhyChooseUsImage from "@/public/img/section3.webp";
+import WhyChooseUsImageMobile from "@/public/img/section3.webp";
 import PromoImage from "@/public/img/why-choose-us/2.jpg";
 import Icons from "@/components/Icons";
 
@@ -15,9 +15,9 @@ export const WhyChooseUsGridData: SectionProps = {
         loading: "lazy",
         alt: "Choose us image"
     },
-    subheading: "Why Choose Us",
-    heading: "Supporting Growth on a Global Scale",
-    text: "We provide dependable and tailored consulting services that help your business navigate challenges, seize opportunities.",
+    subheading: "Why Choose Arrow Marketplace",
+    heading: "Empowering Businesses with Innovative Digital Solutions",
+    text: "We deliver cutting-edge digital solutions that transform your vision into reality. From web and mobile development to eCommerce and SEO, we're your trusted partner for growth.",
     button: {
         label: "More About Us",
         href: "/about-us",
@@ -25,27 +25,27 @@ export const WhyChooseUsGridData: SectionProps = {
     },
     rotatingLogo: {
         logo: <Icons.ChooseRotatingLogo />,
-        text: "25",
+        text: "5+",
     },
     promotions: [
         {
             icon: <Icons.Mission />,
             title: "Our Mission",
-            text: "Our mission is push engage boundaries, enga audiences, and driv engage.",
+            text: "Empowering businesses with cutting-edge digital solutions that transform ideas into reality and accelerate online success.",
         },
         {
             icon: <Icons.Vision />,
             title: "Our Vision",
-            text: "Our mission is push engage boundaries, enga audiences, and driv engage.",
+            text: "Building the future of digital commerce through innovative web and mobile solutions that connect businesses with their customers.",
         },
         {
             icon: <Icons.Awards />,
-            title: "Our Awards",
-            text: "Our mission is push engage boundaries, enga audiences, and driv engage.",
+            title: "Our Expertise",
+            text: "Masters of React Native, Flutter, Next.js, WordPress, Shopify, WooCommerce - delivering scalable solutions that perform.",
         },
     ],
     promoImage: {
-        src: PromoImage.src,
+        src: "/img/section3small.webp",
         width: 800,
         height: 834,
         loading: "lazy",

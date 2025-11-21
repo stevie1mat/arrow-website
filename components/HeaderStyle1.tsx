@@ -1,5 +1,5 @@
 import "@/styles/header.css";
-import Logo from "./Logo";
+import Link from "next/link";
 import NavBar from "./menus/NavBar";
 import HeaderActions from "./HeaderActions";
 import StickyHeader from "./StickyHeader";
@@ -13,16 +13,9 @@ const Header = () => {
       >
         <div className="header-grid">
           {/* Logo */}
-          <Logo                   
-            src="/icons/arrow-logo-white.svg"
-            width={75}
-            height={35}
-            url="/"
-            cls="header-logo"
-            alt="Arrow Marketplace logo"
-            ariaLabel="Arrow Marketplace logo"
-            loading="eager"
-          />
+          <Link href="/" className="header-logo" aria-label="Arrow Marketplace logo">
+            <h2 className="text-28 fw-700" style={{ color: '#2a3015', margin: 0, marginLeft: '30px' }}>ARROW</h2>
+          </Link>
           
           {/* Nav Bar */}
           <NavBar />

@@ -1,5 +1,5 @@
 import FooterContact from "./FooterContact";
-import FooterContactImage from "@/public/img/contact/contact.jpg";
+import FooterContactImage from "@/public/img/contactus.jpg";
 import FooterContactBgImage from "@/public/img/contact/contact-bg.jpg";
 import FooterBgImage from "@/public/img/footer/footer-bg-large.jpg";
 import FooterTop from "./FooterTop";
@@ -20,9 +20,9 @@ const FooterStyle1 = ({ container }: FooterProps) => {
                 height={1400}
                 alt="Contact image"
                 aosAnchor=".contact-box"
-                subheading="Contact Us"
-                heading="Get free business consultation today"
-                text="Need help with a project, have a question about our work? have a question about our work? We're here to help you."
+                subheading="Let's Connect"
+                heading="Get Your Free Digital Solutions Consultation"
+                text="Ready to transform your business with a stunning website, mobile app, or eCommerce platform? Let's discuss your project and bring your digital vision to life."
             />
 
             <div

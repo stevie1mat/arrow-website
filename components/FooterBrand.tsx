@@ -1,5 +1,4 @@
-import Logo from "./Logo";
-import LogoImage from "@/public/img/logo-white.png";
+import Link from "next/link";
 import Social from "./Social";
 
 const FooterBrand = () => {
@@ -9,18 +8,11 @@ const FooterBrand = () => {
             data-aos="fade-up"
             data-aos-anchor=".footer-top"
         >
-            <Logo 
-                src={LogoImage.src}
-                width={189}
-                height={32}
-                url="/"
-                cls="footer-logo"
-                alt="Consulo logo"
-                ariaLabel="Consulo logo" 
-                loading="lazy"
-            />
+            <Link href="/" className="footer-logo" aria-label="Arrow Marketplace logo">
+                <h2 className="text-32 fw-700" style={{ color: 'white', margin: 0 }}>ARROW</h2>
+            </Link>
             <p className="text text-16">
-                Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few
+                Transforming businesses through cutting-edge web development, mobile apps, eCommerce platforms, and digital marketing solutions. Let's bring your vision to life.
             </p>
             <Social 
                 wrapperCls="social-icons"

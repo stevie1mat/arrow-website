@@ -1,21 +1,21 @@
 import { SectionProps } from "@/types/sectionProps";
-import Image1 from "@/public/img/project/1.jpg";
-import Image2 from "@/public/img/project/2.jpg";
-import Image3 from "@/public/img/project/3.jpg";
+import Image1 from "@/public/img/customapps.webp";
+import Image2 from "@/public/img/onlinestores.webp";
+import Image3 from "@/public/img/seo.webp";
 
 export const StickyBannerData: SectionProps = {
     wrapperCls: "mt-100",
     container: "container",
-    heading: "Explore the Recent Works We Have Done!",
-    text: "The solar solution company specializes in providing innovative, eco-friendly energy systems harness the power, reducing carbon footprints and energy for clients worldwide.",
+    heading: "Comprehensive Digital Solutions for Modern Businesses",
+    text: "From concept to launch, we deliver end-to-end digital solutions that transform your business. Expert development in web, mobile, eCommerce, and digital marketing.",
     blockList: [
         {
-            subheading: "Investment Idea",
-            heading: "Innovation meets business needs",
-            text: "Our mission is to empowers businesses off all size to thrive in an our businesses ever changing marketplace.",    
+            subheading: "Web & Mobile Development",
+            heading: "Custom Apps That Drive Engagement",
+            text: "Build powerful, user-friendly applications with React Native, Flutter, and Next.js that work seamlessly across all devices and platforms.",    
             button: {
                 label: "Learn More",
-                href: "/projects",
+                href: "/services",
                 type: "primary"
             },
             image: {
@@ -23,16 +23,16 @@ export const StickyBannerData: SectionProps = {
                 width: 1000,
                 height: 707,
                 loading: "lazy",
-                alt: "Image",
+                alt: "Web and Mobile Development",
             },
         },
         {
-            subheading: "Risk Management",
-            heading: "Protecting business from uncertainty",
-            text: "Our mission is to empowers businesses off all size to thrive in an our businesses ever changing marketplace.",    
+            subheading: "eCommerce Solutions",
+            heading: "Online Stores That Convert",
+            text: "Launch and scale your online business with Shopify, WooCommerce, and WordPress solutions designed to maximize sales and customer satisfaction.",    
             button: {
                 label: "Learn More",
-                href: "/projects",
+                href: "/services",
                 type: "primary"
             },
             image: {
@@ -40,16 +40,16 @@ export const StickyBannerData: SectionProps = {
                 width: 1000,
                 height: 707,
                 loading: "lazy",
-                alt: "Image",
+                alt: "eCommerce Solutions",
             },
         },
         {
-            subheading: "Business Growth",
-            heading: "Redesigning business for solutions",
-            text: "Our mission is to empowers businesses off all size to thrive in an our businesses ever changing marketplace.",    
+            subheading: "SEO & Digital Marketing",
+            heading: "Get Found, Get Customers",
+            text: "Dominate search rankings and drive targeted traffic with our proven SEO strategies, content marketing, and digital advertising campaigns.",    
             button: {
                 label: "Learn More",
-                href: "/projects",
+                href: "/services",
                 type: "primary"
             },
             image: {
@@ -57,7 +57,7 @@ export const StickyBannerData: SectionProps = {
                 width: 1000,
                 height: 707,
                 loading: "lazy",
-                alt: "Image",
+                alt: "SEO and Digital Marketing",
             },
         }
     ]

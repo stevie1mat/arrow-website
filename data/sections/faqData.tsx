@@ -5,7 +5,7 @@ export const FaqData: SectionProps = {
     container: "container",
     subheading: "Questions",
     heading: "Have any questions? here some answers.",
-    text: "In relation to websites and apps, UI design considers the look, interactivity of the making product. It's all about making sure that the user interface.",
+    text: "Get answers to common questions about our web development, mobile apps, eCommerce solutions, and digital marketing services. We're here to help transform your digital vision into reality.",
     button: {
         label: "Ask Your Question",
         href: "/faq",

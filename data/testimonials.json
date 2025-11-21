@@ -2,33 +2,33 @@
   {
     "id": 1,
     "name": "John Carter",
-    "role": "CEO, BTech",
-    "review": "Working with several word themes templates the last years only can say this is best in every level use it for my reviews that I have already are company and the reviews that I have already are all excellent. Not only the design.",
+    "role": "CEO, TechVentures",
+    "review": "Arrow Marketplace transformed our outdated website into a modern, high-performing platform. Their expertise in React and Next.js delivered exceptional results. The team was professional, responsive, and delivered on time. Highly recommend!",
     "rating": 5,
-    "image": "/img/testimonial/t1.jpg"
+    "image": "/img/john.webp"
   },
   {
     "id": 2,
     "name": "Sophia Ahmed",
-    "role": "Manager, PixelPro",
-    "review": "Working with several word themes templates the last years only can say this is best in every level use it for my reviews that I have already are company and the reviews that I have already are all excellent. Not only the design.",
+    "role": "Owner, StyleHub Boutique",
+    "review": "Our Shopify store has never looked better! Arrow Marketplace built us a stunning eCommerce site that's easy to manage and our sales have increased by 40%. Their ongoing support is phenomenal. Worth every penny!",
     "rating": 5,
-    "image": "/img/testimonial/t2.jpg"
+    "image": "/img/ahmed.webp"
   },
   {
     "id": 3,
     "name": "Liam Johnson",
-    "role": "Designer, Innovix",
-    "review": "Working with several word themes templates the last years only can say this is best in every level use it for my reviews that I have already are company and the reviews that I have already are all excellent. Not only the design.",
+    "role": "Founder, FitLife App",
+    "review": "The mobile app they developed using React Native is absolutely incredible. Works flawlessly on both iOS and Android. The Arrow team understood our vision perfectly and brought it to life. Best development partner we've worked with!",
     "rating": 5,
-    "image": "/img/testimonial/t3.jpg"
+    "image": "/img/liam.webp"
   },
   {
     "id": 4,
     "name": "Emily Brown",
-    "role": "Developer, SoftMind",
-    "review": "Working with several word themes templates the last years only can say this is best in every level use it for my reviews that I have already are company and the reviews that I have already are all excellent. Not only the design.",
+    "role": "Marketing Director, GrowthCo",
+    "review": "Their SEO and digital marketing services have been game-changing for our business. We now rank on the first page for our main keywords and our organic traffic has tripled. Arrow Marketplace truly knows digital marketing!",
     "rating": 5,
-    "image": "/img/testimonial/t4.jpg"
+    "image": "/img/brown.webp"
   }
 ]

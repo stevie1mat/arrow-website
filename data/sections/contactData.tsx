@@ -1,5 +1,6 @@
 import { SectionProps } from "@/types/sectionProps";
 import Icons from "@/components/Icons";
+import ContactImage from "@/public/img/contactus.jpg";
 
 export const ContactData: SectionProps = {
     wrapperCls: "section-padding",
@@ -7,6 +8,15 @@ export const ContactData: SectionProps = {
     subheading: "Contact Us",
     heading: "Let's Build an Awesome Project Together",
     text: "Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.",
+    imageList: [
+        {
+            src: ContactImage.src,
+            width: 800,
+            height: 600,
+            alt: 'Contact Us',
+            loading: 'lazy'
+        }
+    ],
     promotions: [
         {
             icon: <Icons.ThumbsUp />,
