@@ -62,7 +62,7 @@
 }
 
 .card-testimonial .icon-quote {
-  --color-background: rgba(28, 37, 57, 1);
+  --color-background: #636B2F;
   color: var(--color-background);
 }
 
@@ -174,7 +174,7 @@
 
 .testimonial-2 .swiper-pagination-bullet-active {
   --style-pagination-border-width: 2px;
-  --pagination-item-active-border: rgba(32, 40, 45, 1);
+  --pagination-item-active-border: #636B2F;
   background: transparent;
   outline: var(--style-pagination-border-width) solid
     var(--pagination-item-active-border);
