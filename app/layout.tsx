@@ -12,13 +12,13 @@ import ScrollTop from "@/components/ScrollToTop";
 export const metadata: Metadata = {
   title: {
     template: '%s',
-    default: 'Consulo Creative Business Consulting Template',
+    default: 'Arrow Marketplace - Digital Solutions for Modern Businesses',
   },
-  description: "Consulo is a creative business consulting template designed for corporate entities and professional businesses.",
+  description: "Arrow Marketplace offers comprehensive digital solutions including web development, mobile app development (React Native, Flutter), eCommerce platforms (Shopify, WooCommerce), and SEO & digital marketing services.",
   openGraph: {
-    title: 'Consulo Creative Business Consulting Template',
-    description: 'A versatile HTML template designed for corporate entities and professional businesses.',
-    url: 'https://themeforest.net/user/spreethemes/portfolio',
+    title: 'Arrow Marketplace - Digital Solutions for Modern Businesses',
+    description: 'Professional web development, mobile apps, eCommerce solutions, and SEO services to grow your business.',
+    url: 'https://arrowmarketplace.com',
     type: 'website',
   },
 };

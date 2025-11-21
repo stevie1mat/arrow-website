@@ -1353,7 +1353,7 @@ h6,
 }
 
 .accordion-block.active .accordion-opener {
-  --color-background: rgba(28, 37, 57, 1);
+  --color-background: #636B2F;
   --color-foreground-heading: rgba(255, 255, 255, 1);
   background-color: var(--color-background);
   transition: all 0.3s;
@@ -1369,7 +1369,7 @@ h6,
 }
 
 .accordion-opener .svg-wrapper {
-  --color-background: rgba(32, 40, 45, 1);
+  --color-background: #636B2F;
   min-width: 30px;
   height: 30px;
   background-color: var(--color-background);
@@ -1392,7 +1392,7 @@ h6,
 }
 
 .accordion-block.active .accordion-opener .svg-wrapper svg {
-  --color-foreground: rgba(32, 40, 45, 1);
+  --color-foreground: #636B2F;
   color: var(--color-foreground);
 }
 
