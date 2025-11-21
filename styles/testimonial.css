@@ -9,6 +9,12 @@
   font-weight: 800;
 }
 
+@media (min-width: 768px) {
+  .testimonial-about .section-headings .heading {
+    max-width: 400px;
+  }
+}
+
 .card-testimonial {
   --color-background: rgba(255, 255, 255, 1);
   background-color: var(--color-background);

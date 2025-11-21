@@ -5,12 +5,14 @@ import Subheading from "../Subheading";
 import Text from "../Text";
 import PrimaryButton from "../buttons/PrimaryButton";
 import SecondaryButton from "../buttons/SecondaryButton";
+import Image from "next/image";
 
 
 const TextBanner = ({ data }: { data: SectionProps }) => {
     const {
         wrapperCls,
         container,
+        backgroundImage,
         subheading,
         heading,
         text,
@@ -21,6 +23,17 @@ const TextBanner = ({ data }: { data: SectionProps }) => {
         <div className={`text-banner ${wrapperCls}`}>
             <div className={container}>
                 <div className="text-banner-inner radius18">
+                    {backgroundImage &&
+                        <div className="media media-bg">
+                            <Image
+                                src={backgroundImage.src}
+                                width={backgroundImage.width}
+                                height={backgroundImage.height}
+                                loading={backgroundImage.loading}
+                                alt={backgroundImage.alt ? backgroundImage.alt : 'Background image'}
+                            />
+                        </div>
+                    }
                     <div className="section-headings">
                         {subheading &&
                             <Subheading 

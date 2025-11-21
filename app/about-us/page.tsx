@@ -51,9 +51,6 @@ const About = () => {
             {/* Scrolling Text */}
             {/* <ScrollingText data={ScrollingTextData} /> */}
 
-            {/* Text Banner - Recurring Earnings */}
-            <TextBanner data={TextBannerData} />
-
             {/* Why Choose Us */}
             <WhyChooseUsGrid data={WhyChooseUsGridBgData} />
 
@@ -62,6 +59,9 @@ const About = () => {
                 data={TeamSliderData} 
                 pagination={true}
             /> */}
+
+            {/* Text Banner - Recurring Earnings */}
+            <TextBanner data={TextBannerData} />
 
             {/* Testimonials */}
             <Testimonials data={TestimonialData} />
