@@ -14,7 +14,7 @@ const Header = () => {
     }, []);
 
     // Default to HeaderStyle2 on server and until client hydrates
-    const shouldUseStyle2 = pathname === '/home-2' || pathname === '/' || pathname === '/about-us';
+    const shouldUseStyle2 = pathname === '/home-2' || pathname === '/' || pathname === '/about-us' || pathname === '/contact-us';
 
     return (
         <>        

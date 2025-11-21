@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
-import BreadcrumbBannerImage from '@/public/img/banner/page-banner.jpg';
-import BreadcrumbBannerImageTablet from '@/public/img/banner/page-banner-991.jpg';
-import BreadcrumbBannerImageMobile from '@/public/img/banner/page-banner-575.jpg';
+import BreadcrumbBannerImage from '@/public/img/blog-banner.jpg';
+import BreadcrumbBannerImageTablet from '@/public/img/blog-banner.jpg';
+import BreadcrumbBannerImageMobile from '@/public/img/blog-banner.jpg';
 import { ContactData } from '@/data/sections/contactData';
 
 import BreadcrumbBanner from "@/components/BreadcrumbBanner";

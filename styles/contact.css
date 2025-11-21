@@ -6,6 +6,18 @@
   margin-block-start: 40px;
 }
 
+.section-contact-form .card-icon-text-horizontal .svg-wrapper {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-contact-form .card-icon-text-horizontal .svg-wrapper svg {
+  color: rgba(255, 255, 255, 1);
+}
+
 .contact-form-headings .heading + .text {
   margin-block-start: 15px;
 }
@@ -15,13 +27,13 @@
 }
 
 .section-contact-form .contact-form-wrap {
-  --color-background: rgba(32, 40, 45, 1);
-  --color-foreground: rgba(242, 242, 242, 1);
+  --color-background: #636B2F;
+  --color-foreground: rgba(255, 255, 255, 1);
   --color-foreground-heading: rgba(255, 255, 255, 1);
-  --color-input-text: rgba(93, 102, 111, 1);
+  --color-input-text: #2a3015;
   --color-input-background: rgba(255, 255, 255, 1);
   --color-input-border: rgba(255, 255, 255, 1);
-  --color-input-hover-text: rgba(93, 102, 111, 1);
+  --color-input-hover-text: #2a3015;
   --color-input-hover-background: rgba(255, 255, 255, 1);
   --color-input-hover-border: rgba(255, 255, 255, 1);
   --color-secondary-button-hover-border: rgba(255, 255, 255, 0.3);

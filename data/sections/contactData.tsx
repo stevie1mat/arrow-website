@@ -6,8 +6,8 @@ export const ContactData: SectionProps = {
     wrapperCls: "section-padding",
     container: "container",
     subheading: "Contact Us",
-    heading: "Let's Build an Awesome Project Together",
-    text: "Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.",
+    heading: "Let's Build Your Digital Solution Together",
+    text: "Ready to transform your business with cutting-edge web development, mobile apps, eCommerce platforms, or digital marketing? Get in touch with Arrow Marketplace today and let's discuss how we can bring your vision to life.",
     imageList: [
         {
             src: ContactImage.src,
@@ -20,17 +20,17 @@ export const ContactData: SectionProps = {
     promotions: [
         {
             icon: <Icons.ThumbsUp />,
-            title: "350+ Projects Done",
-            text: "From banking and insurance to wealth the management and security on there",
+            title: "100+ Projects Delivered",
+            text: "From custom websites and mobile apps to eCommerce platforms and comprehensive digital marketing campaigns",
         },
         {
             icon: <Icons.Support />,
-            title: "500+ Happy Clients",
-            text: "From banking and insurance to wealth the management and security on there",
+            title: "Dedicated Support",
+            text: "We're with you every step of the way, from initial consultation to post-launch support and ongoing optimization",
         },
     ],
     block: {
-        heading: "Make an Appointment",
-        text: "Feel free to contact with us, we don't spam your email",
+        heading: "Get Started Today",
+        text: "Fill out the form below and we'll get back to you within 24 hours to discuss your project",
     },
 }
