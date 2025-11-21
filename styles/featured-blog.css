@@ -9,6 +9,12 @@
   overflow: hidden;
 }
 
+.featured-blog .section-headings .heading {
+  font-size: 56px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
 .featured-blog .card-blog {
   --color-background: rgba(255, 255, 255, 1);
 }

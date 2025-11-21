@@ -14,6 +14,12 @@
   --color-foreground: rgba(93, 102, 111, 1);
 }
 
+.project-content .section-headings .heading {
+  font-size: 56px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
 .project-button .button--secondary:focus,
 .project-button .button--secondary:hover {
   --color-secondary-button-hover-border: rgba(255, 255, 255, 0.3);

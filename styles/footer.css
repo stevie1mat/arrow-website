@@ -11,6 +11,12 @@ footer {
   position: relative;
 }
 
+.footer-main .section-headings .heading {
+  font-size: 56px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
 .footer-logo {
   max-width: 188px;
   display: flex;
@@ -81,6 +87,12 @@ footer .social-link:hover {
 .footer-contact {
   position: relative;
   padding-block-start: 100px;
+}
+
+.footer-contact .section-headings .heading {
+  font-size: 56px;
+  line-height: 1.2;
+  font-weight: 800;
 }
 
 .footer-contact .contact-box {
