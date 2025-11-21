@@ -7,9 +7,9 @@
   --color-icon: rgba(28, 37, 57, 1);
   --color-primary-button-hover-text: rgba(255, 255, 255, 1);
   --color-primary-button-hover-background: rgba(32, 40, 45, 1);
-  --color-foreground-subheading: rgba(242, 242, 242, 1);
-  --color-background-subheading: rgba(28, 37, 57, 1);
-  --color-border-subheading-bg: rgba(28, 37, 57, 1);
+  --color-foreground-subheading: rgba(255, 255, 255, 1);
+  --color-background-subheading: #636B2F;
+  --color-border-subheading-bg: #636B2F;
   background-color: var(--color-background);
 }
 
@@ -23,13 +23,22 @@
 }
 
 .card-blog:hover {
-  --color-foreground-subheading: rgba(28, 37, 57, 1);
-  --color-background-subheading: rgba(242, 242, 242, 1);
-  --color-border-subheading-bg: rgba(242, 242, 242, 1);
+  --color-foreground-subheading: rgba(255, 255, 255, 1);
+  --color-background-subheading: #4a5226;
+  --color-border-subheading-bg: #4a5226;
 }
  
 .featured-blog.blog-style-3 .card-blog-list-media {
   --height: 300px
+}
+
+.featured-blog .card-blog {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.featured-blog .card-blog:hover {
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
 }
 
 .card-blog-top {
