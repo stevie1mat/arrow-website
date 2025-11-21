@@ -5,10 +5,10 @@ export const ImageTextData: SectionProps = {
     wrapperCls: "mt-100 mb-100",
     container: "container",
     subheading: "Our Company",
-    heading: "Redesigning business for solutions",
-    text: "Our mission is to empowers businesses off all size to thrive in an our businesses ever changing marketplace.",
+    heading: "Transforming Ideas Into Digital Reality",
+    text: "Arrow Marketplace empowers businesses of all sizes to thrive in the digital age. We specialize in creating powerful web solutions, mobile applications, eCommerce platforms, and comprehensive digital marketing strategies.",
     button: {
-        label: "More About Us",
+        label: "Get Started",
         href: "/contact-us",
         type: "primary"
     },
@@ -21,13 +21,13 @@ export const ImageTextData: SectionProps = {
     },
     textList: [
         {
-            text: "Integrate a diverse range of ideas"
+            text: "Custom web and mobile development"
         },
         {
-            text: "Deliver the highest quality outcomes"
+            text: "Scalable eCommerce solutions"
         },
         {
-            text: "Believe in powerof implication"
+            text: "Data-driven SEO and digital marketing"
         }
     ]
 }

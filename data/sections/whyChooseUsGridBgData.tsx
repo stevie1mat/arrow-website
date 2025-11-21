@@ -24,32 +24,32 @@ export const WhyChooseUsGridBgData: SectionProps = {
         alt: "Choose us image"
     },
     subheading: "Why Choose Us",
-    heading: "Supporting Growth on a Global Scale",
-    text: "We provide dependable and tailored consulting services that help your business navigate challenges, seize opportunities.",
+    heading: "Your Trusted Partner in Digital Innovation",
+    text: "We deliver cutting-edge digital solutions backed by years of expertise in web development, mobile apps, eCommerce, and SEO. Our client-focused approach ensures your success every step of the way.",
     button: {
-        label: "More About Us",
-        href: "/about-us",
+        label: "Start Your Project",
+        href: "/contact-us",
         type: "primary"
     },
     rotatingLogo: {
         logo: <Icons.ChooseRotatingLogo />,
-        text: "25",
+        text: "5+",
     },
     promotions: [
         {
             icon: <Icons.Mission />,
             title: "Our Mission",
-            text: "Our mission is push engage boundaries, enga audiences, and driv engage.",
+            text: "To empower businesses with innovative digital solutions that drive growth, enhance user experiences, and deliver measurable results.",
         },
         {
             icon: <Icons.Vision />,
             title: "Our Vision",
-            text: "Our mission is push engage boundaries, enga audiences, and driv engage.",
+            text: "To be the leading digital solutions provider, recognized for excellence in web development, mobile apps, and digital marketing.",
         },
         {
             icon: <Icons.Awards />,
-            title: "Our Awards",
-            text: "Our mission is push engage boundaries, enga audiences, and driv engage.",
+            title: "Our Expertise",
+            text: "5+ years delivering successful projects in React, Next.js, React Native, Shopify, SEO, and comprehensive digital marketing.",
         },
     ],
     promoImage: {

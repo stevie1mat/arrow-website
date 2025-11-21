@@ -4,11 +4,11 @@ export const Faq2Data: SectionProps = {
     wrapperCls: "mt-100 mb-100",
     container: "container",
     subheading: "Questions",
-    heading: "Have any questions? here some answers.",
-    text: "In relation to websites and apps, UI design considers the look, interactivity of the making product. It's all about making sure that the user interface.",
+    heading: "Have questions about our services?",
+    text: "Whether you need a custom website, mobile app, eCommerce platform, or digital marketing strategy, we're here to help. Browse our frequently asked questions or reach out to discuss your project.",
     button: {
-        label: "Ask Your Question",
-        href: "/faq",
+        label: "Contact Us",
+        href: "/contact-us",
         type: "primary"
     }
 }
