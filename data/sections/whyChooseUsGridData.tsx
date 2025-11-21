@@ -25,7 +25,7 @@ export const WhyChooseUsGridData: SectionProps = {
     },
     rotatingLogo: {
         logo: <Icons.ChooseRotatingLogo />,
-        text: "5+",
+        text: "15+",
     },
     promotions: [
         {

@@ -33,7 +33,7 @@ export const WhyChooseUsGridBgData: SectionProps = {
     },
     rotatingLogo: {
         logo: <Icons.ChooseRotatingLogo />,
-        text: "5+",
+        text: "15+",
     },
     promotions: [
         {
@@ -49,7 +49,7 @@ export const WhyChooseUsGridBgData: SectionProps = {
         {
             icon: <Icons.Awards />,
             title: "Our Expertise",
-            text: "5+ years delivering successful projects in React, Next.js, React Native, Shopify, SEO, and comprehensive digital marketing.",
+            text: "15+ years delivering successful projects in React, Next.js, React Native, Shopify, SEO, and comprehensive digital marketing.",
         },
     ],
     promoImage: {
