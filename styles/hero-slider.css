@@ -25,6 +25,14 @@
   max-width: 772px;
 }
 
+.slider-card .content-box .text {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.slider-card .content-box .subheading {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
 .slider-card-4 .content-box {
   max-width: 1000px;
 }

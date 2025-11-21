@@ -1,8 +1,8 @@
 import { SectionProps } from "@/types/sectionProps";
-import Image1 from '@/public/img/image-text/img1.png';
+import Image1 from '@/public/img/about1.webp';
 
 export const ImageTextData: SectionProps = {
-    wrapperCls: "mt-100",
+    wrapperCls: "mt-100 mb-100",
     container: "container",
     subheading: "Our Company",
     heading: "Redesigning business for solutions",

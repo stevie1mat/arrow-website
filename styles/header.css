@@ -13,7 +13,7 @@
   --top: 30px;
   --header-radius: 100px;
   --header-padding: 0 24px;
-  --color-background: rgba(255, 255, 255, 1);
+  --color-background: rgba(255, 255, 255, 0.95);
   --color-foreground: rgba(28, 37, 57, 1);
   --color-primary-hover: rgba(28, 37, 57, 0.6);
   --color-border: rgba(0, 0, 0, 0.06);

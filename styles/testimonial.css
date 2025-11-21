@@ -3,6 +3,12 @@
   background-color: var(--color-background);
 }
 
+.testimonial .section-headings .heading {
+  font-size: 56px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
 .card-testimonial {
   --color-background: rgba(255, 255, 255, 1);
   background-color: var(--color-background);
@@ -110,6 +116,12 @@
 
 .testimonial-slider {
   display: block;
+}
+
+.testimonial-slider .section-headings .heading {
+  font-size: 56px;
+  line-height: 1.2;
+  font-weight: 800;
 }
 
 .thumb-content {

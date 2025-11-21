@@ -14,7 +14,9 @@ const Header = () => {
         <div className="header-grid">
           {/* Logo */}
           <Link href="/" className="header-logo" aria-label="Arrow Marketplace logo">
-            <h2 className="text-28 fw-700" style={{ color: '#2a3015', margin: 0, marginLeft: '30px' }}>ARROW</h2>
+            <h2 className="text-28 fw-700" style={{ color: '#2a3015', margin: 0, marginLeft: '30px' }}>
+              ARROW<span style={{ color: '#636B2F' }}>.</span>
+            </h2>
           </Link>
           
           {/* Nav Bar */}

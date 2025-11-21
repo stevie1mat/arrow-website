@@ -4,6 +4,12 @@
   height: 100%;
 }
 
+.faq .section-headings .heading {
+  font-size: 56px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
 .accordion-list > div + div,
 .faq .accordion-list > div + div {
   margin-block-start: 24px;

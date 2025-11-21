@@ -1,8 +1,8 @@
 import { SectionProps } from "@/types/sectionProps";
-import WhyChooseUsBg from "@/public/img/why-choose-us/bg.jpg";
-import WhyChooseUsImage from "@/public/img/why-choose-us/1.jpg";
-import WhyChooseUsImageMobile from "@/public/img/why-choose-us/575.jpg";
-import PromoImage from "@/public/img/why-choose-us/2.jpg";
+import WhyChooseUsBg from "@/public/img/banner/image.jpg";
+import WhyChooseUsImage from "@/public/img/about2.webp";
+import WhyChooseUsImageMobile from "@/public/img/about2.webp";
+import PromoImage from "@/public/img/about3.webp";
 import Icons from "@/components/Icons";
 
 export const WhyChooseUsGridBgData: SectionProps = {

@@ -4,20 +4,20 @@ export const MenuService = {
     title: "Our Services",
     menus: [
         {
-            title: "Launch with Consulo",
+            title: "Web Development",
             path: "/services"
         },
         {
-            title: "Migrate to Consulo",
-            path: "/projects"
+            title: "Mobile Apps",
+            path: "/services"
         },
         {
-            title: "Partner Services",
-            path: "/contact-us"
+            title: "eCommerce Solutions",
+            path: "/services"
         },
         {
-            title: "Professional Services",
-            path: "/projects/business-development"
+            title: "SEO & Digital Marketing",
+            path: "/services"
         }
     ]
 }
@@ -26,18 +26,18 @@ export const MenuContact = {
     title: "Quick Contact",
     menus: [
         {
-            title: "Peel House, 30 The Downs",
+            title: "Toronto, Ontario, Canada",
             path: null,
             icon: <Icons.Location />
         },
         {
-            title: "+01234567890",
-            path: "tel:+001234567890",
+            title: "+1 (289) 991-2009",
+            path: "tel:+12899912009",
             icon: <Icons.Phone />
         },
         {
-            title: "consulo@email.com",
-            path: "mailto:consulo@email.com",
+            title: "info@arrowmarketplace.com",
+            path: "mailto:info@arrowmarketplace.com",
             icon: <Icons.Envelope />
         }
     ]

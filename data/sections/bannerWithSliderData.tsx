@@ -9,7 +9,7 @@ export const BannerWithSliderData: BannerSliderType = {
     heading: "Transform Your Vision Into Digital Reality",
     styledText: "Digital",
     text: "From stunning Websites and Mobile apps to powerful eCommerce platforms and SEO strategies - we build digital solutions that drive your business growth.",
-    phone: "(307) 555-0133",
+    phone: "+1 (289) 991-2009",
     button: {
         label: "Start Your Project",
         href: "/contact-us",

@@ -2,6 +2,14 @@
   --color-foreground-heading: #2a3015;
 }
 
+.image-text .heading {
+  font-family: 'Urbanist', sans-serif;
+}
+
+.image-text .heading + .text {
+  margin-block-start: 16px;
+}
+
 .text-lists .text-item {
   --color-foreground: rgba(28, 37, 57, 1);
 }

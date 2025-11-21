@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
-import BreadcrumbBannerImage from '@/public/img/banner/page-banner.jpg';
-import BreadcrumbBannerImageTablet from '@/public/img/banner/page-banner-991.jpg';
-import BreadcrumbBannerImageMobile from '@/public/img/banner/page-banner-575.jpg';
+import BreadcrumbBannerImage from '@/public/img/blog-banner.jpg';
+import BreadcrumbBannerImageTablet from '@/public/img/blog-banner.jpg';
+import BreadcrumbBannerImageMobile from '@/public/img/blog-banner.jpg';
 
 import { ImageTextData } from '@/data/sections/imageTextData';
 import { ScrollingTextData } from '@/data/sections/scrollingTextData';
@@ -9,6 +9,7 @@ import { WhyChooseUsGridBgData } from '@/data/sections/whyChooseUsGridBgData';
 import { TeamSliderData } from '@/data/sections/teamSliderData';
 import { TestimonialData } from '@/data/sections/testimonialData';
 import { Faq2Data } from '@/data/sections/faq2Data';
+import { TextBannerData } from "@/data/sections/textBannerData";
 
 import BreadcrumbBanner from "@/components/BreadcrumbBanner";
 import ImageText from '@/components/sections/ImageText';
@@ -17,6 +18,7 @@ import WhyChooseUsGrid from '@/components/sections/WhyChooseUsGrid';
 import TeamSlider from '@/components/sections/TeamSlider';
 import Testimonials from '@/components/sections/Testimonials';
 import Faq from '@/components/sections/Faq';
+import TextBanner from "@/components/sections/TextBanner";
 
 
 const PAGE_TITLE: string = 'About Us';
@@ -47,16 +49,19 @@ const About = () => {
             <ImageText data={ImageTextData} />
 
             {/* Scrolling Text */}
-            <ScrollingText data={ScrollingTextData} />
+            {/* <ScrollingText data={ScrollingTextData} /> */}
+
+            {/* Text Banner - Recurring Earnings */}
+            <TextBanner data={TextBannerData} />
 
             {/* Why Choose Us */}
             <WhyChooseUsGrid data={WhyChooseUsGridBgData} />
 
             {/* Our Team */}
-            <TeamSlider 
+            {/* <TeamSlider 
                 data={TeamSliderData} 
                 pagination={true}
-            />
+            /> */}
 
             {/* Testimonials */}
             <Testimonials data={TestimonialData} />

@@ -209,6 +209,11 @@
   max-width: 800px;
 }
 
+.text-banner .section-headings .heading {
+  font-size: 54px;
+  line-height: 1.2;
+}
+
 @media (max-width: 991px) {
   .banner-slider {
     margin-block-start: 50px;
